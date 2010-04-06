@@ -6,6 +6,7 @@ class Gnuplot <Formula
   md5 'e708665bd512153ad5c35252fe499059'
 
   depends_on 'readline'
+  depends_on 'aquaterm'
   depends_on 'gd' unless ARGV.include? "--nogd"
   depends_on 'pdflib-lite' if ARGV.include? "--pdf"
 
